@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/user")
 public class UserController {
 
-	@ResponseBody
+	//@ResponseBody
 	@RequestMapping("/greet")
 	public String greetUser() {
-		return "Hello...Welcome to MyApp1";
+		return "hello";
 	}
 	
 }
